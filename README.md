@@ -6,7 +6,8 @@
 
 <p align="center">
   Application web de gestion d'un service après-vente : <strong>clients</strong>, <strong>devis</strong> et <strong>gestion électronique des documents (GED)</strong>.<br>
-  PHP 8 · MySQL / MariaDB · PDF avec Dompdf · Emails avec PHPMailer
+  PHP 8 · MySQL / MariaDB · PDF avec Dompdf · Emails avec PHPMailer<br>
+  <sub>Par <strong>Owen Gicquel</strong> et <strong>Kahina Ait Kaci Arab</strong></sub>
 </p>
 
 <p align="center">
@@ -26,6 +27,7 @@
 - [Base de données](#base-de-données)
 - [Sécurité](#sécurité)
 - [Dépannage](#dépannage)
+- [Auteurs](#auteurs)
 
 ## Fonctionnalités
 
@@ -180,6 +182,11 @@ Les lignes et le détail de TVA sont supprimés avec leur devis (`ON DELETE CASC
 | Erreur Gmail lors de l'envoi | Utilisez un *mot de passe d'application* et non le mot de passe du compte. |
 | « Fichier trop volumineux » | Augmentez `upload_max_filesize` et `post_max_size` dans `php.ini`. |
 
+## Auteurs
+
+- **Owen Gicquel**
+- **Kahina Ait Kaci Arab**
+
 ---
 
-<p align="center"><sub>Projet réalisé dans le cadre du module de Programmation Web — M1.</sub></p>
+<p align="center"><sub>Projet réalisé par Owen Gicquel et Kahina Ait Kaci Arab dans le cadre du module de Programmation Web — M1.</sub></p>

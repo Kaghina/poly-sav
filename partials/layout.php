@@ -132,7 +132,7 @@ function appFooter(): void
     <div class="footer-inner">
         <span class="footer-brand"><img src="assets/img/logo.png" alt=""> <?= e(APP_NAME) ?></span>
         <span>1 rue de la MIAGE, 75000 Paris · 01 02 03 04 05</span>
-        <span>© <?= date('Y') ?> — TP Programmation Web</span>
+        <span>© <?= date('Y') ?> Owen Gicquel &amp; Kahina Ait Kaci Arab — TP Programmation Web</span>
     </div>
 </footer>
 <script>
