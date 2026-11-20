@@ -1,0 +1,14 @@
+# Configuration locale : contient des mots de passe (SMTP, MySQL)
+config.local.php
+
+# Documents clients stockés par la GED (données personnelles) — on garde seulement la protection .htaccess
+_storage/*
+!_storage/.htaccess
+
+# Fichiers système / éditeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
